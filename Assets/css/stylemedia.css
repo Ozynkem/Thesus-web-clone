@@ -1,0 +1,668 @@
+
+@media(max-width:1118px){
+    nav img{
+        left: 16%;
+    }
+    .bestsell{
+        color: black; 
+        margin-top: 0%;
+        display: none;
+    }
+    .hidden-bestsell{
+        display: block;
+        text-align: center;
+        background-color: rgb(243,243,243);
+        padding: 8% 0%;
+    }
+    .hidden-bestsell1{
+        color: rgb(126,134,127);
+        font-size: 25px;
+    }
+    .hidden-bestsell2{
+        color: rgb(18,48,38);
+        font-size: 60px;
+        font-weight: 600;
+    
+    }
+    .hidden-bestsell3{
+        padding:11px 26px;
+        border-radius: 7px;
+        background-color:rgb(18,48,38) ;
+        color: white;
+        border: 3px solid rgb(18,48, 38);
+        margin-top: 6%;
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:944px){
+    nav img{
+        left: 13%;
+        top: 80px;
+        width: 180px;
+        height: 55px;
+    }
+
+
+    nav ul li a{
+        font-size: 1.4rem;
+    }
+    .bestsell{
+        color: black; 
+        margin-top: 0%;
+        display: none;
+    }
+    .hidden-bestsell{
+        display: block;
+        text-align: center;
+        background-color: rgb(243,243,243);
+        padding: 8% 0%;
+    }
+    .hidden-bestsell1{
+        color: rgb(126,134,127);
+        font-size: 25px;
+    }
+    .hidden-bestsell2{
+        color: rgb(18,48,38);
+        font-size: 60px;
+        font-weight: 600;
+    
+    }
+    .hidden-bestsell3{
+        padding:11px 26px;
+        border-radius: 7px;
+        background-color:rgb(18,48,38) ;
+        color: white;
+        border: 3px solid rgb(18,48, 38);
+        margin-top: 6%;
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:860px){
+    label #btn{
+        display:block ;
+
+    }  
+    .img1{
+        width: 120px;
+        position: absolute;
+        top: 80px;
+        left: 16%;
+        height: 40px;
+    }
+    .n-ul{
+        position: fixed;
+        width: 80%;
+        height: 100vh;
+        background-color: whitesmoke;
+        top: 120px;
+        left: -100%;
+        text-align:left;
+        transition: all.7s;
+    }
+   
+    
+
+    nav ul{
+   
+        margin-left:0px;
+    }
+    nav ul li{
+        display: block;
+        margin: 40px 0;
+        line-height: 10px;
+    }
+    nav ul li a{
+        font-size: 20px;  
+    }
+   
+    #check:checked ~ ul{
+        left: 0%;
+    }
+    #check:checked~label #btn{
+        display: none;
+    }
+    #check:checked ~ label #cancel{
+        display:block;
+       
+    }
+    .nav-icon{
+        float: inline-end;
+        /* margin-right: 10%; */
+        /* line-height: 80px; */
+        float: right;
+    padding-top: 25px;
+    margin-bottom: 30px;
+        
+        
+    }
+    .navcon{
+        padding: 0px 5px; 
+        font-size: 18px;
+        color: rgb(38,65,56);
+    }
+    .navcon1{
+        display: none;
+    }
+
+    .containr{
+        width: 100%;
+        height: 500px;
+        background-position: right;
+        background-size:cover;
+        background-image: url(/Assets/Thesus-images/Sec1image.webp);
+        background-attachment: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .bestsell{ 
+        display: none;
+    }
+    .hidden-bestsell{
+        display: block;
+        text-align: center;
+        background-color: rgb(243,243,243);
+        padding: 8% 0%;
+    }
+    .hidden-bestsell1{
+        color: rgb(126,134,127);
+        font-size: 25px;
+    }
+    .hidden-bestsell2{
+        color: rgb(18,48,38);
+        font-size: 60px;
+        font-weight: 600;
+    
+    }
+    .hidden-bestsell3{
+        padding:11px 26px;
+        border-radius: 7px;
+        background-color:rgb(18,48,38) ;
+        color: white;
+        border: 3px solid rgb(18,48, 38);
+        margin-top: 6%;
+    }
+    .socialsec{
+        text-align: center;
+        padding: 5% 0%;
+        color: rgb(18,48,38);
+        font-size: 27px;
+        font-weight: 600;
+    }
+    .main-hide{
+        display: none;
+    }
+    .hidden-main{
+        display: flex;
+        justify-content: cente;
+        text-align: cente;
+    }
+    .child1{
+        margin-right: 7px;
+    }
+    .main1-texthide{
+        font-size: 16px;
+        padding-top: 8px;
+        font-weight: 600;
+    }
+    .main-iconhide{
+        font-size: 13px;
+    }
+    .containr1{
+        width: 100%;
+        height: 500px;
+        background-position: left;
+        background-size:cover;
+        background-image: url(/Assets/Thesus-images/secstaycozyimg.webp);
+        background-attachment: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .hidden-bestsell{
+        display: block;
+        text-align: center;
+        background-color: rgb(243,243,243);
+        padding: 10% 0%;
+    }
+    .hidden-bestsell11{
+        color: rgb(18,48,38);;
+        font-size: 35px;
+        font-weight: 600;
+    }
+    .hidden-bestsell21{
+        color: rgb(18,48,38);
+        font-size: 25px;
+        
+    
+    }
+    .hidden-bestsell31{
+        padding:11px 26px;
+        border-radius: 7px;
+        background-color:rgb(18,48,38) ;
+        color: white;
+        border: 3px solid rgb(18,48, 38);
+        margin-top: 6%;
+    }
+
+    .nature-1{
+        font-size: 25px;
+        color:rgb(18,48,38);
+        font-weight: 600;
+    }
+    .nature-2{
+        font-size: 14px;
+        font-weight: 600;
+        color: rgb(19, 91, 55);
+    
+    }
+    .nature-3{
+        background-color: rgb(18, 48, 38);
+        color: white;
+        padding: 10px 20px;
+        border:2px soild rgb(18, 48, 38);
+        border-radius: 10px;
+        font-weight: 600;
+    }
+    .thebest-card{
+        width: 10rem;
+        padding-right: px;
+        justify-content: center;
+        text-align: center;
+        
+    }
+    .media-card{
+        margin-top: 4%;
+        margin-bottom: 3%;
+    }
+    .card-text{
+        font-weight: 600;
+        font-size: 11px;
+    }
+    .thesus-text{
+        color:  rgb(18, 48, 38);
+        text-align: center;
+        justify-content: center;
+        font-size: 25px;
+        font-weight: 600;
+        margin-bottom: 4%;
+    }
+    .trysec{
+        justify-content: center;
+        text-align: center;
+        margin-top: 9%;
+    }
+    .trysec1{
+        color:rgb(18, 48, 38 ) ;
+        font-size: 34px;  
+        font-weight: 600;
+    }
+    .trysec2{
+        color: burlywood;
+        font-size: 16px;
+        line-height: 3px;
+    }
+    .star{
+        justify-content: center;
+        text-align: center;
+        padding: 4% 0% 3% 0%;
+    }
+    .star-text{
+        font-family: cursive;
+        font-size: 14px;
+        margin: 5% 0%;
+    }
+    .group-deal{
+        margin-top: 0%;
+        justify-content: center;
+        text-align: center;
+        background-color:rgb(18,48,38) ;
+        color: white;
+        padding: 5% 0%;
+    }
+    .group-deal-text1{
+        font-weight: 600;
+        font-size: 32px;
+    }
+    .group-deal-text2{
+        font-size: 15px;
+        line-height: 30px;
+    }
+    .group-deal-text3{
+        font-size: 12px;
+    }
+   .me{
+    margin-top: 9px;
+   }
+   .trysec101{
+    color:rgb(18, 48, 38 ) ;
+    font-size: 28px;  
+    font-weight: 600;
+    justify-content: center;
+    text-align: center;
+    margin-top: 4%;
+}
+.change{
+    margin-top: 7%;
+    background-color: rgb(243,243,243);
+    justify-content: center;
+    text-align: center;
+    padding: 8% 0%;
+}
+.email{
+    padding: 10px 40px;
+    font-weight: 600;
+    border-radius: 10px;
+    border: 2px solid green;
+    font-size: 15px;
+    margin-bottom: 20px;
+    
+
+}
+.email-bbt{
+    background-color:rgb(18, 48, 38 ) ;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid rgb(18, 48, 38 );
+    padding: 8px 13px;
+    font-weight: 600;
+}
+.change-text11{
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 12px 0px;
+}
+
+.foot-img{
+    width: 100px;
+    height: 50px;
+}
+.foot-text{
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.foot-icon{
+    font-size: 20px;
+    padding-right: 10px;
+    margin-top: 18px;
+    margin-bottom: 22px;
+}
+.foot-media{
+    padding-left: 47px;
+}
+
+footer h5{
+    font-weight: 600;
+    font-size: 19px;
+}
+footer ul li {
+    padding-top: 19px;
+    font-weight: 600;
+    font-size: 14px;
+}
+footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+footer ul li a:hover{
+    color: white;
+    text-decoration: underline;
+}
+.last-icon{
+    color: white;
+    padding-left: 8px;
+    font-size: 30px;
+}
+.last-iconrow1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 5px 20px;
+    color: white;
+    font-weight: 600;
+    font-size: 10px; 
+}
+
+/* VALUE STYLING */
+.valuesec{
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/Assets/Thesus-images/Thesus-sustainable-values-mainimg.webp);
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    
+ }
+.valuetext1{
+    color: rgb(186,181,177);
+    font-size: 15px;
+    font-weight: 600;
+ }
+ .valuetext2{
+    color: white;
+    font-size: 28px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    line-height: 30px;
+ }
+ .whoweare{
+    margin: 7% 0%;
+    text-align: center;
+    justify-content: center;
+ }
+ .whowearetext{
+    color: rgb(18, 48, 38) ;
+    font-size: 34px;
+    font-weight: 600;
+ }
+ .whowearetext1{
+    font-size: 14px;
+    color: rgb(77,107,97);
+    padding-top: 2%;
+    line-height: 30px;
+ }
+ .valuesec1{
+    width: 100%;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url(/Assets/Thesus-images/bottomtree.webp);
+    background-color: rgba(0, 0, 0, .3);
+    background-blend-mode:overlay;  
+ }
+ .valuesec1text1{
+    font-size: 38px;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    justify-content: center;
+    padding-top: 70px;
+ }
+ .valuesec1text{
+    font-size: 16px;
+    justify-content: center;
+    text-align: center;
+    color: rgb(229, 242, 237);
+    font-weight: 600; 
+ }
+ .sec2{
+    padding: 5% 5%;
+ }
+ .sec2-text{
+    color: rgb(18, 48, 38) ;
+    font-size: 35px;
+    font-weight: 600;
+
+ }
+ .diverse-sec-text{
+    font-size: 23px;
+    font-weight: 600;
+    color: rgb(18, 48, 38 );
+
+ }
+ .diverse-sec-text1{
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(186,181,177);
+ }
+ .divert-img{
+    height: 280px;
+    
+ }
+
+ /* WEATHER STYLING */
+
+ .weathersec{
+    width: 100%;
+    height: 480px;
+    background-position:left;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/Assets/Thesus-images/allwheathersec.webp);
+    color: white;   
+}
+.weathertext{
+  justify-content: center;
+  text-align: center;
+  display: none;
+}
+
+.hidden-weathertext{
+    justify-content: center;
+    text-align: center;
+    display: block;
+    padding: 8% 0%;
+  }
+  .hidden-weathertext1{
+     font-size: 40px;
+     font-weight: 600;
+  }
+  .hidden-weathertext2{
+     font-size: 22px;
+     font-weight: 600;
+     padding-top: 3px;
+     color:rgb(19, 91, 55);
+  }
+  .hovertextlink{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    font-weight: 600
+    
+
+}
+.hover-container{
+    position: relative;
+    width: 176px;
+}
+
+.hovertextlink:hover{
+    color: black;
+    font-weight: 600;
+    font-size: 12px;
+    text-decoration: underline;
+}
+.htext{
+    font-weight: 600;
+    font-size: 13px;
+    padding: 0px 0px 0px 0px;
+}
+.btext{
+    padding: 1% 20%;
+    background-color: rgb(18, 48, 38 );
+    border: 2px solid rgb(18, 48, 38 );
+    border-radius:18px;
+    color: white;
+    font-size: 14px;
+}
+
+.hoversec{
+    padding: 6% 0%; 
+    cursor: pointer;
+  }
+ .me1{
+    margin-top: 20px;
+   }
+   .text-forget{
+    margin-left: 50px;
+    padding-top: 10px;
+}
+
+
+.cart-class{
+    padding-right: 0%;
+    justify-content: center; 
+    padding-top: 20px;
+    margin-bottom: 5px;
+    color: rgb(18, 48, 38 );
+    font-weight: 600;
+    font-size: 25px;
+    margin-top: 19%;
+}
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

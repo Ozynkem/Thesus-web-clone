@@ -1,0 +1,801 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.firstnav{
+    background-color: rgb(18,48,38);
+    color: white;
+    text-align: center;
+    padding: 2px 0px;
+    font-weight: 600;
+    font-size: 14px;
+}
+nav{
+    height: 5px;
+    
+    
+}
+
+.img1{
+    width: 150px;
+    position: absolute;
+    top: 60px;
+    left: 12%;
+}
+nav ul{
+    float:left;
+    margin-left:20%;
+}
+nav ul li{
+    display: inline-block;
+    
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 15px;
+
+}
+nav ul li a{
+    color:rgb(79,90,80);
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;  
+}
+nav ul li a:hover {
+    color:rgb(79,90,80);
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: underline;  
+} 
+
+label #btn,
+label #cancel{
+    color:black;
+    font-size: 30px;
+    padding-left: 10px;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+.nav-icon{
+    /* float: inline-end;
+     margin-right: 20%;
+     line-height: 80px; */
+    float: right;
+    padding-top: 20px;
+    
+    
+}
+.navcon{
+    padding: 0px 20px;
+    font-size: 18px;
+    color: rgb(38,65,56);
+}
+.containr{
+    width: 100%;
+    height: 700px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(/Assets/Thesus-images/Sec1image.webp);
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bestsell{
+    color:white;
+    text-align: center;
+} 
+.bestsell-1{
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 25px;
+}
+.bestsell-2{
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 70px;
+
+}
+.bestsell-3{
+    color: black;
+    padding:10px 25px;
+    border-radius: 7px;
+    border: 1px solid white;
+    background-color: white;
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: 600;
+}
+.hidden-bestsell{
+    display: none;
+}
+.socialsec{
+    text-align: center;
+    padding: 5% 0%;
+    color: rgb(18,48,38);
+    font-size: 37px;
+    font-weight: 600;
+}
+
+.main1{
+    transition: 00.8s;
+    transition-timing-function:ease-in-out; 
+      
+}
+.main1:hover{
+    transform:scale(1.05);
+    background-color :white;   
+}
+.main1-text{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 45px;
+}
+.main-icon{
+    color:rgb(18,48,38);
+    font-size: 15px;
+    padding-left: 10px;
+    
+}
+.hidden-main{
+    display: none;
+}
+.containr1{
+    width: 100%;
+    height: 700px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(/Assets/Thesus-images/secstaycozyimg.webp);
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bestsell-11{
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 25px;
+    padding-bottom: 28px;
+}
+.bestsell-21{
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 40px;
+
+}
+.bestsell-31{
+    color: black;
+    padding:10px 25px;
+    border-radius: 7px;
+    border: 1px solid white;
+    background-color: white;
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.nature{
+    background-color: rgb(243,243,243);
+    padding: 9% 6%;
+}
+.nature-1{
+    font-size: 35px;
+    color:rgb(18,48,38);
+    font-weight: 600;
+}
+.nature-2{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(19, 91, 55);
+
+}
+.nature-3{
+    background-color: rgb(18, 48, 38);
+    color: white;
+    padding: 10px 20px;
+    border:2px soild rgb(18, 48, 38);
+    border-radius: 10px;
+    font-weight: 600;
+}
+.sec-space{
+    margin-top: 5%;
+    margin-bottom: 7%;
+}
+.thesus-text{
+    color:  rgb(18, 48, 38);
+    text-align: center;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 4%;
+}
+.thebest-card{
+    width: 20rem;
+}
+.bodycard{
+    padding: 15% 7%;
+    background-color: rgb(245,247,246);
+    color: rgb(75, 75, 75);
+    font-size: 16px;
+    
+    
+}
+.card-text{
+    font-weight: 600;
+    font-size: 15px;
+}
+.shop{
+    background-color:rgb(18, 48, 38 );
+    color: white;
+    border: 2px solid rgb(18,48,38);
+    margin-top: 5%;
+    border-radius: 5px;
+    padding: 9px 15px;
+    font-weight: 600;
+
+}
+.shop-span{
+    text-align: center;
+    justify-content: center;
+}
+.trysec{
+    justify-content: center;
+    text-align: center;
+    margin-top: 5%;
+}
+.trysec1{
+    color:rgb(18, 48, 38 ) ;
+    font-size: 44px;  
+    font-weight: 600;
+}
+.trysec2{
+    color: burlywood;
+    font-size: 26px;
+    line-height: 3px;
+    margin-bottom: 3%;
+}
+.tryy{
+    justify-content: center;
+    text-align: center;
+}
+.accord-icon{
+    font-size: 18px;
+    color: rgb(225, 115, 115);
+    padding-right: 14px;
+}
+.accord-text{
+    font-size: 16px;
+    font-weight: 600;
+}
+.shop-accord{
+    background-color: rgb(136,151,146);
+    color: white;
+    padding : 2% 3%;
+    border:2px solid rgb(136,151,146);
+    border-radius: 10px;
+}
+
+.star{
+    justify-content: center;
+    text-align: center;
+    padding: 15% 0%;
+}
+.star-text{
+    font-family: cursive;
+    font-size: 18px;
+    margin: 5% 0%;
+}
+.star-text1{
+    font-weight: 600;
+    font-size: 12px;
+}
+.star-icon{
+    color:rgb(18,48,38) ;
+    font-size: 25px;
+    
+}
+.lace-img:hover{
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+     transform: rotate(45deg);
+    -webkit-transition-duration: 1s;
+    -moz-transition-duration: 1s;
+    -o-transition-duration: 1s;
+     transition-duration: 1s;
+}
+.group-deal{
+    margin-top: 3%;
+    justify-content: center;
+    text-align: center;
+    background-color:rgb(18,48,38) ;
+    color: white;
+    padding: 5% 0%;
+}
+.group-deal-text1{
+    font-weight: 600;
+    font-size: 42px;
+}
+.group-deal-text2{
+    font-size: 27px;
+}
+.group-deal-text3{
+    font-size: 22px;
+}
+.trysec10{
+    color:rgb(18, 48, 38 ) ;
+    font-size: 44px;  
+    font-weight: 600;
+    justify-content: center;
+    text-align: center;
+    margin-top: 4%;
+}
+.trysec101{
+    color:rgb(18, 48, 38 ) ;
+    font-size: 40px;  
+    font-weight: 600;
+    justify-content: center;
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 3%;
+}
+.change{
+    margin-top: 7%;
+    background-color: rgb(243,243,243);
+    justify-content: center;
+    text-align: center;
+    padding: 6% 0%;
+}
+.change-text{
+        color:rgb(18, 48, 38 ) ;
+        font-size: 33px;  
+        font-weight: 600;
+        justify-content: center;
+        text-align: center;       
+}
+.change-text1{
+    font-size: 27px;
+    color: rgb(18, 48, 38 );
+}
+.email{
+    padding: 10px 70px;
+    font-weight: 600;
+    border-radius: 10px;
+    border: 2px solid green;
+    font-size: 15px;
+    
+
+}
+.email-bbt{
+    background-color:rgb(18, 48, 38 ) ;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid rgb(18, 48, 38 );
+    padding: 8px 15px;
+    font-weight: 600;
+}
+.change-text11{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 15px 0px;
+}
+.foot{
+    background-color: rgb(18, 48, 38);
+    color: white;
+    padding: 4% 0% 2% 0%;
+}
+.foot-img{
+    width: 100px;
+    height: 50px;
+}
+.foot-text{
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.foot-icon{
+    font-size: 25px;
+    padding-right: 20px;
+    margin-top: 20px;
+}
+footer h5{
+    font-weight: 600;
+    font-size: 19px;
+}
+footer ul li {
+    padding-top: 19px;
+    font-weight: 600;
+    font-size: 14px;
+    list-style-type: none;
+}
+footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+footer ul li a:hover{
+    color: white;
+    text-decoration: underline;
+}
+.last-c{
+    background-color: rgb(18, 48, 38);
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    
+}
+.last-iconrow{
+    display: flex;
+    justify-content: center;
+    padding: 18px 0px;
+  
+}
+.last-icon{
+    color: white;
+    padding-left: 8px;
+    font-size: 50px;
+}
+.last-iconrow1{
+    display: flex;
+    justify-content: center;
+    padding: 5px 0px;
+    color: white;
+    font-weight: 600;
+    font-size: 12px; 
+}
+
+ /* VALUES STYLING */
+
+ .valuesec{
+    width: 100%;
+    height: 700px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/Assets/Thesus-images/Thesus-sustainable-values-mainimg.webp);
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, .5);
+    color: white;
+    
+ }
+ .valuetext{
+    justify-content: center;
+    text-align: center;
+ }
+ .valuetext1{
+    color: rgb(186,181,177);
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 20px;
+ }
+ .valuetext2{
+    color: white;
+    font-size: 45px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    line-height: 50px;
+ }
+ .whoweare{
+    margin: 6% 0%;
+    text-align: center;
+    justify-content: center;
+ }
+ .whowearetext{
+    color: rgb(18, 48, 38) ;
+    font-size: 40px;
+    font-weight: 600;
+ }
+ .whowearetext1{
+    font-size: 17px;
+    color: rgb(77,107,97);
+    padding-top: 1%;
+ }
+ .valuesec1{
+    width: 100%;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url(/Assets/Thesus-images/bottomtree.webp);
+    background-color: rgba(0, 0, 0, .3);
+    background-blend-mode:overlay;  
+ }
+ .valuesec1text1{
+    font-size: 38px;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    justify-content: center;
+    padding-top: 5%;
+ }
+ .valuesec1text{
+    font-size: 15px;
+    justify-content: center;
+    text-align: center;
+    color: rgb(229, 242, 237);
+    font-weight: 600; 
+ }
+ .sec2{
+    padding: 5% 0%;
+ }
+ .sec2-text{
+    color: rgb(18, 48, 38) ;
+    font-size:40px;
+    font-weight: 600;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 3%;
+
+ }
+ .sec2-text1{
+    font-weight: 600;
+    font-size: 19px;
+ }
+ .sec2-text2{
+    font-size: 15px;
+    color: rgb(7, 20, 15);
+ }
+ .treemedia{
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    background-attachment:fixed;
+    background-image: url(/Assets/Thesus-images/treehug.webp);
+    background-color: rgba(0, 0, 0, .3);
+    background-blend-mode:overlay;
+ }
+ .diverse-row{
+    margin: 6% 0%;
+ }
+ .diverse-sec{
+    padding: 12% 7%;
+    
+ }
+ .diverse-sec-text{
+    font-size: 39px;
+    font-weight: 600;
+    color: rgb(18, 48, 38 );
+
+ }
+ .diverse-sec-text1{
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(186,181,177);
+ }
+ .diverse-sec1{
+    padding: 4% 7%;
+    
+ }
+ .divert-img{
+    height: 550px;
+    
+ }
+
+ /* WEATHER STYLING */
+ .weathersec{
+     width: 100%;
+     height: 480px;
+     background-position:center;
+     background-size: contain;
+     background-attachment: fixed;
+     background-repeat: no-repeat;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-image: url(/Assets/Thesus-images/allwheathersec.webp);
+     color: white;   
+ }
+ .weathertext{
+   justify-content: center;
+   text-align: center;
+ }
+ .weathertext1{
+    font-size: 55px;
+    font-weight: 600;
+ }
+ .weathertext2{
+    font-size: 22px;
+    font-weight: 600;
+ }
+
+ .hidden-weathertext{
+    justify-content: center;
+    text-align: center;
+    display: none;
+  }
+  .hidden-weathertext1{
+     font-size: 55px;
+     font-weight: 600;
+  }
+  .hidden-weathertext2{
+     font-size: 22px;
+     font-weight: 600;
+  }
+  .hoversec{
+    padding: 6% 0%;
+    cursor: pointer;
+  }
+  .hover-container{
+        position: relative;
+        width: 320px;
+        
+}
+.top-img1{
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;transition: all .7s ease;
+
+
+}
+.top-img1:hover{
+    opacity: 1;
+
+} 
+.htcontain{
+    padding-top: 10px;
+}
+.hovertextlink{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: 600
+    
+
+}
+.hovertextlink:hover{
+    color: black;
+    font-weight: 600;
+    font-size: 15px;
+    text-decoration: underline;
+}
+.htext{
+    font-weight: 600;
+    padding: 2px 0px 2px 0px;
+}
+.btext{
+    padding: 3% 36%;
+    background-color: rgb(18, 48, 38 );
+    border: 2px solid rgb(18, 48, 38 );
+    border-radius:18px;
+    color: white;
+}
+
+/* ACCOUNT STYLING */
+.nav-accountsec{
+    height: 10px;
+    margin-bottom: 90px;   
+}
+.for{
+    justify-content: center;
+    text-align: center;
+}
+.email-class{
+    padding-right: 20%;
+    justify-content: center; 
+    padding-top: 20px;
+    margin-bottom: 2%;
+}
+.email-class2{
+    padding-right: 20%;
+    justify-content: center; 
+    padding-top: 20px;
+    margin-bottom: 5px;
+}
+
+.account-sec{
+    border-top: 1px solid lightgray;
+
+}
+.email-class1{
+    color: rgb(18, 48, 38);
+    font-size: 30px;
+    margin: 2% ;
+    font-weight: 600;
+}
+.text-forget{
+    margin-left: 533px;
+}
+.text-forget-link{
+    color: black;
+    font-size: 15px;
+}
+.text-forget-link:hover{
+    color: black;
+    font-size: 15px;
+}
+.signbutton{
+    border-radius: 40px ;
+    color: white;
+     background-color: rgb(18, 48, 38 ); 
+    border: 1px solid rgb(18, 48, 38 );
+    padding: 12px 30px;
+    margin: 1%;
+    
+}
+.text-forget-link1{
+    color: rgb(18, 48, 38 );
+    font-size: 19px;
+}
+.text-forget-link1:hover{
+    color:rgb(18, 48, 38);
+    font-size: 19px;
+}
+
+
+
+
+/* CART STYLING */
+
+.cart-class{
+    padding-right: 0%;
+    justify-content: center; 
+    padding-top: 20px;
+    margin-bottom: 5px;
+    color: rgb(18, 48, 38 );
+    font-weight: 600;
+    font-size: 40px;
+    margin-top: 5%;
+}
+.cart-button{
+    border: 1px solid rgb(18, 48, 38 );
+    background-color: rgb(18, 48, 38 );
+    color: white;
+    padding: 10px 20px;
+    margin: 2% 0%;
+    border-radius: 40px;
+}
+.cart-text{
+    font-size: 24px;
+    font-weight: 600;
+    color: rgb(18, 48, 38 );
+    padding: 10px 0px 2px 0px;
+}
+.cart-link{
+    color: rgb(18, 48, 38);
+    font-size: 19px;
+    margin-right: 8px;
+    text-decoration:underline;
+}
+.cart-link:hover{
+    color: rgb(18, 48, 38);
+}
+.cart-text1{
+    font-size: 19px;
+    color: rgb(18, 48, 38 );
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
